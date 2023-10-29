@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsskillswap-dev-140433-authRole",
+      "UnauthRoleArn": "arn:aws:iam::508078550020:role/amplify-awsskillswap-dev-140433-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::508078550020:role/amplify-awsskillswap-dev-140433-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awsskillswap-dev-140433-deployment",
+      "UnauthRoleName": "amplify-awsskillswap-dev-140433-unauthRole",
+      "StackName": "amplify-awsskillswap-dev-140433",
+      "StackId": "arn:aws:cloudformation:us-east-1:508078550020:stack/amplify-awsskillswap-dev-140433/00797ee0-768e-11ee-a214-12d1774c641b",
+      "AmplifyAppId": "d32v8rogz2zt2e"
+    }
+  },
+  "auth": {
+    "awsskillswap6811031f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-awsskillswap-dev-140433-deployment/amplify-cfn-templates/auth/awsskillswap6811031f-cloudformation-template.json",
+        "logicalId": "authawsskillswap6811031f"
+      },
+      "lastPushTimeStamp": "2023-10-29T19:32:56.348Z",
+      "output": {
+        "UserPoolId": "us-east-1_JwUa3oFue",
+        "AppClientIDWeb": "1gkkkvs9mf8qeqh2s7jaj11d7u",
+        "AppClientID": "2d2vtrgo6dml15pl3os2ppcqu3",
+        "IdentityPoolId": "us-east-1:5627fd7c-300a-4036-bb44-a01bb4e3afd8",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:508078550020:userpool/us-east-1_JwUa3oFue",
+        "IdentityPoolName": "awsskillswap6811031f_identitypool_6811031f__dev",
+        "UserPoolName": "awsskillswap6811031f_userpool_6811031f"
+      },
+      "lastPushDirHash": "nxffWdX3PNZnQ+Kt6tRnJ31V0Lw="
+    }
+  }
+}
