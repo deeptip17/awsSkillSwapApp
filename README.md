@@ -1,7 +1,7 @@
 "# SkillSwapApp" 
 
-This app was developed by me so that students can contact each other and learn the skills they want o learn
-free of change.
+This app was developed by me so that students can contact each other and learn the skills they want to learn
+free of charge.
 
 
 This app uses aws amplify which in turn integrates with incognito,AppSync for GraphQL with DynamoDB and S3 bucket
